@@ -460,7 +460,7 @@ alloy-transport-ipc = { version = "0.4.2", default-features = false }
 alloy-transport-ws = { version = "0.4.2", default-features = false }
 
 # op
-op-alloy-rpc-types = "0.4"
+op-alloy-rpc-types = { version = "0.4", default-features = false }
 op-alloy-rpc-types-engine = "0.4"
 op-alloy-network = "0.4"
 op-alloy-consensus = "0.4"

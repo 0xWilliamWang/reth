@@ -2,6 +2,7 @@
 
 use crate::{Nibbles, TrieAccount};
 use alloy_primitives::{keccak256, Address, Bytes, B256, U256};
+use alloy_primitives::map::HashMap;
 use alloy_rlp::{encode_fixed_size, Decodable, EMPTY_STRING_CODE};
 use alloy_trie::{
     nodes::TrieNode,
@@ -11,7 +12,6 @@ use alloy_trie::{
 use itertools::Itertools;
 use reth_primitives_traits::{constants::KECCAK_EMPTY, Account};
 use serde::{Deserialize, Serialize};
-use std::collections::HashMap;
 
 /// The state multiproof of target accounts and multiproofs of their storage tries.
 /// Multiproof is effectively a state subtrie that only contains the nodes
