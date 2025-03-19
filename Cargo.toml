@@ -417,7 +417,7 @@ revm-primitives = { version = "10.0.0", features = [
 ], default-features = false }
 
 # eth
-alloy-chains = { git = "https://github.com/0xWilliamWang/chains", branch = "dev-chain-reth"}
+alloy-chains = { git = "https://github.com/0xWilliamWang/chains", tag= "v0.1.64-dev"}
 alloy-dyn-abi = "0.8.0"
 alloy-primitives = { version = "0.8.7", default-features = false }
 alloy-rlp = "0.3.4"
