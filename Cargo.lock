@@ -98,7 +98,7 @@ checksum = "683d7910e743518b0e34f1186f92494becacb047c7b6bf616c96772180fef923"
 [[package]]
 name = "alloy-chains"
 version = "0.1.64"
-source = "git+https://github.com/0xWilliamWang/chains?tag=v0.1.64-dev#2e78a46a8c4b8f31be8471d6b2b5c71439d33635"
+source = "git+https://github.com/0xWilliamWang/chains?tag=v0.1.64-dev1#0c7b60368a41e54d46a2ffce73ee367a03b25a58"
 dependencies = [
  "alloy-primitives",
  "alloy-rlp",
@@ -1518,9 +1518,9 @@ dependencies = [
 
 [[package]]
 name = "bytemuck_derive"
-version = "1.9.1"
+version = "1.9.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9d35fadd3de6c82a550b136427123552b401efdab9859130f1cf485fbdea40af"
+checksum = "2ff22c2722516255d1823ce3cc4bc0b154dbc9364be5c905d6baa6eccbbc8774"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -10452,9 +10452,9 @@ checksum = "55937e1799185b12863d447f42597ed69d9928686b8d88a1df17376a097d8369"
 
 [[package]]
 name = "tempfile"
-version = "3.19.0"
+version = "3.19.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "488960f40a3fd53d72c2a29a58722561dee8afdd175bd88e3db4677d7b2ba600"
+checksum = "7437ac7763b9b123ccf33c338a5cc1bac6f69b45a136c19bdd8a65e3916435bf"
 dependencies = [
  "fastrand 2.3.0",
  "getrandom 0.3.2",
